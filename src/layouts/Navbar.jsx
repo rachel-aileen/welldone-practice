@@ -21,8 +21,7 @@ export default function Navbar() {
                     <li className="menu-item"><a href="forms.html" className="active">Forms</a></li>
                     <li className="menu-item"><a href="contact.html">Contact</a></li>
                 </ul>
-                <div className="menu-btn" onClick={toggleMenu}></div>
-            </div>
+                <img src="https://firebasestorage.googleapis.com/v0/b/bloomboxx-16513.appspot.com/o/menuBtn.png?alt=media&token=bf0d09c3-2e80-4d6d-af77-37ce95c7e144" className="menu-btn" onClick={toggleMenu} alt="Menu" />            </div>
         </div>
     );
 }

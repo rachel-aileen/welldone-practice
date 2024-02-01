@@ -12,10 +12,11 @@ body {
   z-index: 999;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-  width: 25%;
+  width: 30%;
 }
 
 .navbar .navigation {
@@ -39,4 +40,59 @@ body {
   transition: 0.5s;
   transition-property: right, visibility;
   list-style: none;
+}
+
+
+
+
+
+.menu-item {
+  position: relative;
+}
+
+.menu-item>a {
+  color: var(--secondary-text-color);
+  font-family: var(--button-font-light);
+  font-size: 13px;
+  font-weight: 100;
+  text-decoration: none;
+  margin: 20px;
+  padding: 25px 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: color 1s;
+}
+
+
+.menu-item>a:hover,
+.menu-item>a.active {
+  color: var(--primary-color);
+}
+
+
+.more .more-menu .more-item {
+  padding: 7px 0;
+  box-shadow: inset 0px -30px 5px -30px rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+}
+
+.menu-btn {
+  width: 25%;
+  height: 25%;
+  background-size: 70%;
+  background-position: center;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  background: url(https://firebasestorage.googleapis.com/v0/b/ally-health-obgyn.appspot.com/o/close.png?alt=media&token=93b8d1fe-14c2-497d-86bf-9d7df8e205d3)no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: 40px;
+  background-position: center;
+  top: 0;
+  right: 0;
+  margin: 25px;
+  cursor: pointer;
 }
