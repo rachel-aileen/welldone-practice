@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+
 body {
   background-color: white;
   margin: 0;
@@ -13,17 +15,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+.navbar a {
+  text-decoration: none;
 }
 
 .logo {
-  width: 30%;
+  color: #122223;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'Bodoni Moda', serif;
+  letter-spacing: 2px;
+
+
 }
 
 .navbar .navigation {
   position: relative;
   line-height: 20%;
   transition: 0.6s;
-  margin-right: 30%;
 }
 
 .navbar .navigation .menu {
@@ -41,9 +55,6 @@ body {
   transition-property: right, visibility;
   list-style: none;
 }
-
-
-
 
 
 .menu-item {
@@ -76,13 +87,16 @@ body {
   transition: 0.3s;
 }
 
-.menu-btn {
-  width: 25%;
-  height: 25%;
-  background-size: 70%;
-  background-position: center;
-  cursor: pointer;
+.menuIcon {
+  font-size: 2em !important;
+  color: #122223 !important;
 }
+
+
+.menuBtn {
+  background-color: transparent !important;
+}
+
 
 .close-btn {
   position: absolute;
