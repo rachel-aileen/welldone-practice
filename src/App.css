@@ -41,7 +41,7 @@ body {
   position: fixed;
   display: block;
   background-color: pink;
-  min-width: 50%;
+  min-width: 75%;
   height: 100vh;
   top: 0 !important;
   right: -100%;
@@ -68,7 +68,6 @@ body {
 .menu {
   position: fixed;
   top: 0;
-  /* display: none; */
 }
 
 .menu-item {
@@ -88,13 +87,12 @@ body {
   line-height: 100%;
   padding-top: 10%;
   padding-left: 10%;
-
 }
 
 
 .menu-item>a:hover,
 .menu-item>a.active {
-  color: var(--primary-color);
+  color: yellow;
 }
 
 
@@ -112,18 +110,4 @@ body {
 
 .menuBtn {
   background-color: transparent !important;
-}
-
-
-.close-btn {
-  position: absolute;
-  background: url(https://firebasestorage.googleapis.com/v0/b/ally-health-obgyn.appspot.com/o/close.png?alt=media&token=93b8d1fe-14c2-497d-86bf-9d7df8e205d3)no-repeat;
-  width: 40px;
-  height: 40px;
-  background-size: 40px;
-  background-position: center;
-  top: 0;
-  right: 0;
-  margin: 25px;
-  cursor: pointer;
 }

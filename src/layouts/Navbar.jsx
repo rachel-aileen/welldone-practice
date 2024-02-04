@@ -2,6 +2,8 @@ import { Close, Menu } from '@mui/icons-material';
 import { IconButton } from '@mui/material';
 import React, { useState } from 'react';
 
+
+
 export default function Navbar() {
     // State to manage menu visibility
 
